@@ -1,0 +1,15 @@
+.DS_Store
+/res/values-*
+#/.classpath
+/local.properties
+/AndroidSDK/.settings/
+/AndroidSDK/bin/
+/AndroidSDK/gen/
+/libs.bak
+/AndroidSDK/libs
+/AndroidSDK/JarBuilder.jardesc
+/libs
+/library/libs
+/lint.xml
+/ArcGISViewer/res/drawable-hdpi/barchart.png
+/ArcGISViewer/res/drawable-hdpi/chart.png
