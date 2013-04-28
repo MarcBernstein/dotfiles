@@ -16,4 +16,4 @@ alias v='mvim --remote-tab'
 # crawl
 alias ct='crawl-tiles &'
 alias cc='cd ~/.crawl/saves && git ci -am "a" && cd $OLDPWD'
-alias cr='cd ~/.crawl/saves && git reset HEAD --hard && cd $OLDPWD'
+alias cr='cd ~/.crawl/saves && git reset HEAD --hard && git clean -f && cd $OLDPWD'
