@@ -61,7 +61,7 @@ name = Marc
 # job     = (Fighter |...| Wanderer | random)
 # random_pick = true
 # good_random = false
-# restart_after_game = true
+restart_after_game = false
 # default_manual_training = true
 
 ##### 2-  File System ###############################################

@@ -17,6 +17,7 @@ fi
 if [ -f /etc/bash_completion.d/git-prompt.bash ]; then
    . /etc/bash_completion.d/git-prompt.bash
 fi
+
 export GIT_PS1_SHOWDIRTYSTATE=true
 export GIT_PS1_SHOWSTASHSTATE=true
 export GIT_PS1_SHOWUNTRACKEDFILES=true
@@ -34,5 +35,3 @@ if [ -f ~/.bash_functions ]; then
 fi
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-source ~/.profile
