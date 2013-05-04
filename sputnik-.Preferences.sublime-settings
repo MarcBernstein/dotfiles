@@ -1,0 +1,36 @@
+{
+  "color_scheme": "Packages/Boron Color Scheme/Boron.tmTheme",
+  "copy_on_mouse_select": true,
+  "font_face": "Source Code Pro",
+  "font_size": 15,
+  "highlight_modified_tabs": true,
+  "phoenix_color_expanded_folder": true,
+  "phoenix_color_red": true,
+  "phoenix_dirty_bottom_bar": true,
+  "phoenix_dirty_bottom_bar_red": true,
+  "phoenix_highlight_current_tab": true,
+  "phoenix_sidebar_tree_large": true,
+  "phoenix_solid_current_tab": true,
+  "phoenix_tabs_medium": true,
+  "soda_classic_tabs": false,
+  "soda_folder_icons": true,
+  "tab_size": 2,
+  "theme": "Phoenix Dark.sublime-theme",
+  "translate_tabs_to_spaces": false,
+  "wide_caret": true,
+  "folder_exclude_patterns": [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS"
+  ],
+  "file_exclude_patterns": [
+    ".DS_Store"
+  ],
+  "font_options": [
+    "subpixel_antialias"
+  ],
+  "ignored_packages": [
+    "Vintage"
+  ]
+}
