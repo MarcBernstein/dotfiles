@@ -1,0 +1,37 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Zenburnesque.tmTheme",
+	"create_window_at_startup": false,
+	"file_exclude_patterns":
+	[
+		".DS_Store"
+	],
+	"folder_exclude_patterns":
+	[
+		"bin",
+		".bundle",
+		".git",
+		"tmp"
+	],
+	"font_face": "Source Code Pro",
+	"font_size": 16.0,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"phoenix_color_expanded_folder": true,
+	"phoenix_color_red": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_sidebar_tree_large": true,
+	"phoenix_solid_current_tab": true,
+	"phoenix_tabs_medium": true,
+	"soda_classic_tabs": false,
+	"soda_folder_icons": true,
+	"tab_size": 2,
+	"theme": "Phoenix Dark.sublime-theme",
+	"translate_tabs_to_spaces": false,
+	"wide_caret": true,
+	"word_wrap": true
+}
