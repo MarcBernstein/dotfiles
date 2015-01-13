@@ -140,10 +140,11 @@ pickup_mode = multi
 ##### 3-g       Travel and Exploration #################
 #
 # travel_delay = 20
-travel_delay = 1
+travel_delay = -1
 # explore_delay = -1
 explore_delay = -1
 # travel_avoid_terrain = shallow water
+travel_avoid_terrain = shallow water
 #
 # explore_greedy   = false
 # explore_stop     = items,stairs,shops,altars,portals,branches
@@ -156,7 +157,8 @@ explore_stop += greedy_sacrificeable
 # explore_wall_bias = 0
 # travel_key_stop = false
 # auto_sacrifice = true
-auto_sacrifice = prompt_ignore
+#auto_sacrifice = prompt_ignore
+auto_sacrifice = true
 #
 # explore_stop_pickup_ignore += curare
 # auto_exclude += oklob,statue,curse skull,roxanne,hyperactive,lightning spire
@@ -239,7 +241,7 @@ easy_eat_contaminated  = true
 # auto_eat_chunks        = true
 auto_eat_chunks        = true
 # auto_drop_chunks       = (never | rotten | yes)
-auto_drop_chunks       = rotten
+auto_drop_chunks       = yes
 # prompt_for_swap        = false
 # easy_quit_item_prompts = false
 # easy_exit_menu         = true
@@ -252,10 +254,11 @@ autofight_stop = 30
 ##### 3-i       Messages and Display Enhancements #####
 #
 # hp_warning = 30
-hp_warning = 20
+hp_warning = 61
 # mp_warning = 0
 mp_warning = 15
 # hp_colour = 50:yellow, 25:red
+hp_colour = 99:yellow, 85:lightred, 62:red
 # mp_colour = 50:yellow, 25:red
 # stat_colour = 1:lightred, 3:red
 
@@ -272,6 +275,7 @@ mp_warning = 15
 # clear_messages             = true
 # small_more                 = true
 # show_more                  = false
+show_more                  = false
 # show_inventory_weights     = true
 show_inventory_weights     = true
 # item_stack_summary_minimum = 5
@@ -336,6 +340,8 @@ force_more_message += Careful!
 # Announcements of timed portal vaults (bazaar, labyrinths):
 force_more_message += interdimensional caravan
 force_more_message += distant snort
+
+force_more_message += finished your manual
 
 ##### 3-k       Firing Commands #######################
 #
@@ -411,9 +417,11 @@ autoinscribe += distortion:!w
 ### Note: setting window, map or font sizes to '0' implies auto-sizing.
 
 # tile_full_screen      = true
-tile_full_screen      = true
+tile_full_screen      = false
 # tile_window_width     = 1024
+#tile_window_width     = 1440
 # tile_window_height    = 768
+#tile_window_height    = 877
 # tile_use_small_layout = true
 # tile_map_pixels       = 3
 # tile_cell_pixels      = 32
